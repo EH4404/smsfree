@@ -8,15 +8,15 @@
 ###  ติดตั้งแอป
 :  
 ```bash  
-pkg update && pkg upgrade  
-pkg install python git  
+pkg update && pkg upgrade -y
+pkg install python git -y
 ```
 
 ###  ติดตั้งสคริปต์
 :  
 ```bash  
-git clone https://github.com/username/EH4404-System.git  
-cd EH4404-System
+git clone https://github.com/EH4404/smsfree
+cd smsfree
 pip install -r requirements.txt
-python eh4404.py
+python main.py
 ```
